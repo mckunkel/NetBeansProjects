@@ -33,7 +33,13 @@ class Point3D {
         this.y = y;
         this.z = z;
     }
-    
+    void move(double x){
+        this.x = x;
+    }
+    void move(double x, double y){
+        this.x = x;
+        this.y = y;
+    }
     void move(double x, double y, double z) {
         this.x = x;
         this.y = y;
