@@ -131,7 +131,7 @@ public class WidgetX {
             System.out.println(widgets[i]);
             total_mass += widgets[i].getMass();
         }
-        System.out.println("Toatl mass is " + total_mass);
+        System.out.println("Total mass is " + total_mass);
 
     }
 
